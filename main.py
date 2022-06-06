@@ -38,7 +38,7 @@ def convert_to_B_and_W_double_treshold(photo, treshold1, treshold2):
 
 
 if __name__ == '__main__':
-    # imagine location
+    # image location
     photo = Image.open("yoda.jpeg")
 
     choice = int(input("Entrer 1 for single treshold and 2 for double"))
